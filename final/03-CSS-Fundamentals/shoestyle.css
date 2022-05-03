@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product {
+  font-family: sans-serif;
+  border: 6px solid black;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 25px;
+}
+
+.product-name {
+  padding: 20px;
+  background-color: #ddd;
+  text-transform: uppercase;
+  text-align: center;
+}
+.product-image {
+  display: inline-block;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.product-price {
+  margin-left: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.shipping-promo {
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 20px;
+}
+.product-description {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+.more-information {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: black;
+  display: inline-block;
+}
+/*Original code before watching lecture solution
+
+/* .color-blocks {
+  margin-left: 20px;
+  margin: 15px;
+}
+.color1 {
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  background-color: black;
+  display: inline-block;
+  border: 1px solid black;
+}
+.color2 {
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  background-color: blue;
+  display: inline-block;
+  border: 1px solid black;
+}
+.color3 {
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  background-color: red;
+  display: inline-block;
+  border: 1px solid black;
+}
+.color4 {
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  background-color: yellow;
+  display: inline-block;
+  border: 1px solid black;
+}
+.color5 {
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  background-color: green;
+  display: inline-block;
+  border: 1px solid black;
+}
+.color6 {
+  padding: 10px 10px 10px 10px;
+  margin: 5px 5px 5px 5px;
+  background-color: brown;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+ */
+
+.color-blocks {
+  margin-top: 10px;
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.color1 {
+  background-color: black;
+  margin-left: 20px;
+}
+.color2 {
+  background-color: blue;
+}
+.color3 {
+  background-color: red;
+}
+.color4 {
+  background-color: yellow;
+}
+.color5 {
+  background-color: green;
+}
+.color6 {
+  background-color: brown;
+}
+
+.featured-item {
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+  display: inline;
+  padding: 7px 15px;
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.product-details {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.product-features {
+  text-decoration: none;
+  line-height: 2;
+  margin-left: 40px;
+}
+
+li:last-child {
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+
+.button {
+  border: none;
+  background-color: black;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-weight: 200;
+  font-size: 22px;
+  padding: 15px;
+  margin: 0;
+  width: 100%;
+}
+
+.button:hover,
+.button:active {
+  background-color: white;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  border-top: 4px solid black;
+}
+
+
+
+
+/*
+
+//LAYOUT USING FLOATS*/
+/* 
+.left-col {
+  float: left;
+  width: 300px;
+  height: 250px;
+}
+
+.middle-col {
+  float: left;
+  width: 300px;
+}
+
+.right-col {
+  float: left;
+  width: 220px;
+}
+
+.product-price {
+  float: left;
+  width: 105px;
+}
+
+.shipping-promo {
+  margin-top: 27px;
+  float: left;
+}
+
+.product-description {
+  clear: both;
+  margin-top: 10px;
+  text-align: left;
+} */
+
+/* 
+.color1:hover {
+  padding: 11px 11px 11px 11px;
+  background-color: black;
+  display: inline-block;
+  position: fixed;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 0px 8px 0px 8px;
+}
+.color2:hover {
+  padding: 11px 11px 11px 11px;
+  background-color: blue;
+  display: inline-block;
+  position: fixed;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 0px 8px 0px 8px;
+}
+.color3:hover {
+  padding: 11px 11px 11px 11px;
+  background-color: red;
+  display: inline-block;
+  position: fixed;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 0px 8px 0px 8px;
+}
+.color4:hover {
+  padding: 11px 11px 11px 11px;
+  background-color: yellow;
+  display: inline-block;
+  position: fixed;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 0px 8px 0px 8px;
+}
+.color5:hover {
+  padding: 11px 11px 11px 11px;
+  background-color: green;
+  display: inline-block;
+  position: fixed;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 0px 8px 0px 8px;
+}
+.color6:hover {
+  padding: 11px 11px 11px 11px;
+  background-color: brown;
+  display: inline-block;
+  position: fixed;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 0px 8px 0px 8px;
+}
+ */
